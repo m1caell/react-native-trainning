@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "user": "vladimir.putin",
+      "photo": "https://secure.i.telegraph.co.uk/multimedia/archive/03491/Vladimir_Putin_1_3491835k.jpg"
+    },
+    {
+      "id": 2,
+      "user": "donald.trump",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Olw_VuMtP4VWFAuOtB_zvklg9IsmHLnmQcE7JdLKfILxVR_elg"
+    },
+    {
+      "id": 3,
+      "user": "barak.obama",
+      "photo": "https://i.ytimg.com/vi/2bqEn8AXzJ4/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "user": "supreme.leader",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kim_Jong_Un_with_Honor_Guard_portrait.jpg/200px-Kim_Jong_Un_with_Honor_Guard_portrait.jpg"
+    },
+    {
+      "id": 5,
+      "user": "theresa.may",
+      "photo": "https://spectatorblogs.imgix.net/files/2017/01/25-1.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=620&h=413"
+    },
+    {
+      "id": 6,
+      "user": "bugs.bunny",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPNETB677Zc4KAkB32gtT4p8UZ5GpqIkOHbSDa4T5k7G7nsU3"
+    },
+    {
+      "id": 7,
+      "user": "daffy.duck",
+      "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Daffy_Duck_Duck_Dodgers.jpg/220px-Daffy_Duck_Duck_Dodgers.jpg"
+    },
+    {
+      "id": 8,
+      "user": "marvin.martian",
+      "photo": "https://i.ytimg.com/vi/t9wmWZbr_wQ/maxresdefault.jpg"
+    }
+  ]
+}
