@@ -43,11 +43,7 @@ class App extends Component {
           borderColor: "#ddd"
         }}
       >
-        {/* <Image
-          source={require("./img/camera.png")}
-          style={{ width: 23, height: 23 }}
-        /> */}
-        <IgIcon name='photo-camera' style={{ fontSize: 40, color: 'red' }} />
+        <IgIcon name='photo-camera' style={{ width: 23, height: 23, fontSize: 23, color: 'black' }} />
         <Image
           source={require("./img/instagram_logo.png")}
           style={{ width: 100, height: 40, resizeMode: "contain" }}

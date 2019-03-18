@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "userFrom": {
+    "id": 1,
+    "userName": "joao93",
+    "userProfile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0nL8DhkHF3kQtrUkWUFoJ82SbuFc1X5lMzr6pnrIlsMf3qvtt"
+  },
+  "userTo": {
+    "id": 2,
+    "userName": "brunoborges19",
+    "userProfile": "http://files.bonekas8.webnode.pt/system_preview_detail_200003336-869f48890b-public/munequitas-boneca-kawai-cute-dolls-cute-template-boneca-ilustra%C3%A7%C3%B5es-png-brushes-diversos--cute--tumblr-brasil-blog--FREE---photoscape-by-thataschultz-002.png"
+  },
+  "messages": [
+    { "messageId": 1, "userId": 1, "content": "Ooi" },
+    { "messageId": 2, "userId": 1, "content": "Tudo bom?" },
+    { "messageId": 3, "userId": 2, "content": "Olá" },
+    { "messageId": 4, "userId": 2, "content": "Tudo certo sim!" },
+    { "messageId": 5, "userId": 2, "content": "E ai?" },
+  ]
+}
