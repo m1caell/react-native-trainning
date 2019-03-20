@@ -37,14 +37,12 @@
 		2DCD954D1E0B4F2C00145EB5 /* goTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* goTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		37E15313F4D7529855EEEEC1 /* libPods-go.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1420735C8670C8C29C41281B /* libPods-go.a */; };
-		3965196C223D39C40001F6B4 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3965196B223D39C40001F6B4 /* Lato-Regular.ttf */; };
-		3965199F223D3F270001F6B4 /* MyIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39651979223D3F270001F6B4 /* MyIcons.ttf */; };
 		404E23D998FD468EBA73FAC3 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CD2E3F8078484C95BF3E16 /* libRNGestureHandler-tvOS.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		AD75193043C94A53B80D127F /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E212650D1D44508871A4BC /* libRNGestureHandler.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		E0F556C32240778A0045CD12 /* MyFonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F556C2224077890045CD12 /* MyFonts.ttf */; };
-		E0F556C5224079240045CD12 /* MyFonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F556C4224079240045CD12 /* MyFonts.ttf */; };
+		E087445C2242CCD50014EE4D /* MyFonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F556C2224077890045CD12 /* MyFonts.ttf */; };
+		E087445D2242D6300014EE4D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3965196B223D39C40001F6B4 /* Lato-Regular.ttf */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -1113,11 +1111,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E087445D2242D6300014EE4D /* Lato-Regular.ttf in Resources */,
+				E087445C2242CCD50014EE4D /* MyFonts.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				E0F556C5224079240045CD12 /* MyFonts.ttf in Resources */,
-				3965199F223D3F270001F6B4 /* MyIcons.ttf in Resources */,
-				3965196C223D39C40001F6B4 /* Lato-Regular.ttf in Resources */,
-				E0F556C32240778A0045CD12 /* MyFonts.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import { View, Text, Image, SafeAreaView, ScrollView, TouchableOpacity } from 'react-native'
-
-import api from '../../../api/direct.json'
-
+import api from '@api/direct.json'
 import { styles } from './direct.style'
+import { BaseScreen } from '@ui/screens/base'
 
-const backIcon = require('../../../img/back.png')
-const addIcon = require('../../../img/add.png')
-const searchIcon = require('../../../img/search.png')
-const cameraIcon = require('../../../img/camera.png')
-const cameraIcon2 = require('../../../img/camera2.png')
+import backIcon from '@img/back.png'
+import addIcon from '@img/add.png'
+import searchIcon from '@img/search.png'
+import cameraIcon from '@img/camera.png'
+import cameraIcon2 from '@img/camera2.png'
 
-export class Direct extends Component {
+export class DirectScreen extends BaseScreen {
   _renderNavBar() {
     return (
       <View style={styles.navbarContainer}>
@@ -58,7 +57,7 @@ export class Direct extends Component {
     return api.contacts.map(contact => this._renderContact(contact))
   }
 
-  render() {
+  renderContent() {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
         {this._renderNavBar()}

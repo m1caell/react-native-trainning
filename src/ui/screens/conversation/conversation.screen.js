@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { Text, View, Image, ScrollView, TouchableHighlight, TextInput, StyleSheet } from 'react-native'
 import { styles } from './conversation.style'
-import apiConversation from '../../../api/conversation.json'
-import { IgIcon } from '../../../components/IgIcon/ig-icon.component'
+import apiConversation from '@api/conversation.json'
+import { IgIcon } from '@ui/components/IgIcon'
 import LinearGradient from 'react-native-linear-gradient'
 
-const backIcon = require('../../../img/back.png')
-const addIcon = require('../../../img/add.png')
+const backIcon = require('@img/back.png')
+const addIcon = require('@img/add.png')
 
 export class Conversation extends Component {
   constructor() {
@@ -61,12 +61,17 @@ export class Conversation extends Component {
       </ScrollView>
     )
   }
-//coment
+  //coment
   _renderFooter() {
     return (
       <View style={styles.footer}>
-        <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 1}} colors={['#4c669f', '#449DF1']} style={StyleSheet.flatten([styles.linearGradient, styles.cam])}>
-            <IgIcon name="photo-camera" style={StyleSheet.flatten([styles.iconFooter, styles.whiteColor])} />
+        <LinearGradient
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          colors={['#4c669f', '#449DF1']}
+          style={StyleSheet.flatten([styles.linearGradient, styles.cam])}
+        >
+          <IgIcon name="photo-camera" style={StyleSheet.flatten([styles.iconFooter, styles.whiteColor])} />
         </LinearGradient>
         <TextInput
           style={{ flex: 1, height: 50 }}

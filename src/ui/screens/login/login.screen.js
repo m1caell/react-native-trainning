@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Text, View, Image, TextInput, StyleSheet, Button } from 'react-native'
 import { styles } from './login.style'
 import LinearGradient from 'react-native-linear-gradient'
+import logo_img from '@img/instagram_logo.png'
 
-const logo_img = require('../../../img/instagram_logo.png')
 
 export class Login extends Component {
   constructor() {

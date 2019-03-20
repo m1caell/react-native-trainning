@@ -1,0 +1,12 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "@ui": "./src/ui",
+          "@api": "./src/api",
+          "@img": "./src/img"
+        }
+      }]
+    ]
+  }
