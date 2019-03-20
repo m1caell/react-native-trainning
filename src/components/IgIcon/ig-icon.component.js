@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons'
 import icoMoonConfig from '../../assets/font/selection.json'
 
-const Icon = createIconSetFromIcoMoon(icoMoonConfig, 'MyIcons', 'MyIcons.ttf')
+const Icon = createIconSetFromIcoMoon(icoMoonConfig, 'MyFonts', 'MyFonts.ttf')
 
 export class IgIcon extends Component {
   render() {
