@@ -10,6 +10,14 @@ PODS:
   - glog (0.3.5)
   - React (0.58.6):
     - React/Core (= 0.58.6)
+  - react-native-camera (2.1.1):
+    - React
+    - react-native-camera/RCT (= 2.1.1)
+    - react-native-camera/RN (= 2.1.1)
+  - react-native-camera/RCT (2.1.1):
+    - React
+  - react-native-camera/RN (2.1.1):
+    - React
   - React/Core (0.58.6):
     - yoga (= 0.58.6.React)
   - React/CxxBridge (0.58.6):
@@ -68,6 +76,7 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-camera (from `../node_modules/react-native-camera`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -101,6 +110,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNVectorIcons:
@@ -115,10 +126,11 @@ SPEC CHECKSUMS:
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: 130b87b2d5e2baac646954282cab87be986d98fc
+  react-native-camera: 44467cda8307a68f0a1669a84dae0b1bb936e736
   RNGestureHandler: b65d391f4f570178d657b99a16ec99d09b8656b0
   RNVectorIcons: 09d03dfe7c9fc158c3dce50d891101637d428bb3
   yoga: 32d7ef1081951e9a35a4c72a7be797598b138a48
 
-PODFILE CHECKSUM: 63384c3487c922528c67882ba86ecc362f57335f
+PODFILE CHECKSUM: ee1a5f3010871247c127490b55e758f7f7f78521
 
 COCOAPODS: 1.6.1

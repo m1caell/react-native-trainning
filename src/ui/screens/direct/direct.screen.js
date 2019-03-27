@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { View, Text, Image, SafeAreaView, ScrollView, TouchableOpacity } from 'react-native'
 import api from '@api/direct.json'
 import { styles } from './direct.style'
 import { BaseScreen } from '@ui/screens/base'
+import { Camera } from '@ui/components/camera'
 
 import backIcon from '@img/back.png'
 import addIcon from '@img/add.png'
@@ -11,6 +12,13 @@ import cameraIcon from '@img/camera.png'
 import cameraIcon2 from '@img/camera2.png'
 
 export class DirectScreen extends BaseScreen {
+  constructor() {
+    super()
+    this.state = {
+      openCamera: false,
+    }
+  }
+
   _renderNavBar() {
     return (
       <View style={styles.navbarContainer}>
@@ -46,11 +54,15 @@ export class DirectScreen extends BaseScreen {
 
   _renderCameraButton() {
     return (
-      <TouchableOpacity style={styles.cameraButton}>
+      <TouchableOpacity onPress={this._openCamera()} style={styles.cameraButton}>
         <Image source={cameraIcon2} style={styles.cameraButtonIcon} />
         <Text style={styles.cameraButtonText}>Camera</Text>
       </TouchableOpacity>
     )
+  }
+
+  _openCamera = () => {
+    this.setState({ openCamera: true })
   }
 
   _renderContacts() {
@@ -58,6 +70,10 @@ export class DirectScreen extends BaseScreen {
   }
 
   renderContent() {
+    if (this.state.openCamera) {
+      return <Camera />
+    }
+
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
         {this._renderNavBar()}

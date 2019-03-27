@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&lt;string&gt;Your message to user when the photo library is accessed for the first time&lt;/string&gt;</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Usando biblioteca</string>
+	<key>NSCameraUsageDescription</key>
+	<string>&lt;string&gt;Your message to user when the camera is accessed for the first time&lt;/string&gt;</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>&lt;string&gt;Your message to user when the photo library is accessed for the first time&lt;/string&gt;</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
